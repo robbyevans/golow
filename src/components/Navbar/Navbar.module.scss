@@ -1,0 +1,25 @@
+@import '../../global.scss';
+
+.wrapper{
+  display: flex;
+  position: relative;
+  border: 1px solid black;
+  height: 10vh;
+  .logo{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    
+  }
+  .menu{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+    border: 1px solid violet;
+    
+
+    .links{
+      padding: 10px;
+    }
+  }
+}
