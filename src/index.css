@@ -4,5 +4,12 @@
   box-sizing: border-box;
   font-family: "Eudoxus Sans", sans-serif;
   scroll-behavior: smooth;
-  background-color: #F8F7F1;
+  /* background-color: #F8F7F1; */
+   margin-left: 5px;
+  margin-right: 5px; 
+  border: 1px solid violet
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
